@@ -9,6 +9,6 @@ At the end, a more pertinent question to answer is: how to better detect and sto
 
 ## Gathering Data
 
-A first attempt to gather images from huipiles from around Guatemala was done via downloading the images documented in [this blogspot](http://huipilesdeguatemala.blogspot.com/2011/09/huipiles-cotidianos.html). Since downloading each image individually was a bit of a tedious work, we automated it using Python. We present the code in `download_huipiles.py`. 
+A first attempt to gather images from huipiles from around Guatemala was done via downloading the images documented in [this blogspot](http://huipilesdeguatemala.blogspot.com/2011/09/huipiles-cotidianos.html). Since downloading each image individually was a bit of a tedious work, we automated it using Python. We present the code in [`download_huipiles.py`](https://github.com/PDillis/HuipiGAN/blob/master/download_huipiles.py). 
 
 However, it was noted that even after all this work, we only obtained around 19 images (of which 7 were corrupt), so we need another way to gather these images. Luckily we found a [Flickr album by Karen Elwell](https://www.flickr.com/photos/citlali/albums/72157600009235647) which she has graciously permitted me to use for this purpose. This way we managed to obtain 122 images, an order of magnitude more than what we previously had.
